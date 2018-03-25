@@ -25,7 +25,6 @@
 	color: #663300;
 	width: 75px;
 }
-
 .buttonStyle:hover {
 	border: thin solid #FFCC00;
 	background-color: #FCF9D6;
@@ -38,7 +37,6 @@
 	color: #669900;
 	cursor: pointer;
 }
-
 </style>
 </head>
 
@@ -50,9 +48,7 @@
 <script> 
 var myButton = document.getElementById("clickButton");
 var myText = document.getElementById("helloText");
-
 myButton.addEventListener('click', doSomething, false)
-
 function doSomething() {
 	myText.textContent = "hello, world!";
 }
